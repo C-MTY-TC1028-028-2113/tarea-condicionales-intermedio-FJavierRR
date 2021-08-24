@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "07BisiestoDiaSig",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/07BisiestoDiaSig",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "08PuntoCircunferencia",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/08PuntoCircunferencia",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "09CmaKmMtCm",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/09CmaKmMtCm",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "11Cuadratica",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/11Cuadratica",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
