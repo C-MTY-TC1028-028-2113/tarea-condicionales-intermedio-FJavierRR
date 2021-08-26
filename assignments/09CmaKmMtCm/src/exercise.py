@@ -1,18 +1,18 @@
 def main():
     # Escribe tu código abajo de esta línea
-    c = int(input("Introduce los cm: "))
-    if c<100:
-        print(c,"cm")
-    elif c<1000:
-        x=c//100
-        y=c-(x*100)
+    C = int(input("Introduce los cm: "))
+    if C<100:
+        print(C,"cm")
+    elif C<1000:
+        x=C//100
+        y=C-(x*100)
         print(x,"m")
         if y!=0:
             print(y,"cm")
     else:
-        x=c//100000
-        y=(c-(x*100000))//100
-        z=(c-(x*100000)-(y*100))
+        x=C//100000
+        y=(C-(x*100000))//100
+        z=(C-(x*100000)-(y*100))
         if x!=0:
             print(x,"km")
         if y!=0:
